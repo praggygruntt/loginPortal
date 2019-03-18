@@ -1,12 +1,33 @@
 body.signinBody {
-    background-color: #e6f2ff;
+    background-color: #d23700;
 }
 div.signinContainer {
     margin-top: 8%;
 }
 div.signinCard {
-    background-color: #f4f4f4;
+    background-color: #ffb300;
     box-shadow: 2px 2px 5px rgba(0,0,0, .5);
     -webkit-box-shadow: 2px 2px 5px rgba(0,0,0, .5);
     -mox-box-shadow: 2px 2px 5px rgba(0,0,0, .5);
+}
+img.signinImg {
+    margin: auto;
+    display: block;
+}
+form.signinForm {
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+button.btn {
+    background-color: #d23700;
+    border: none;
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0,0,0, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0, .5);
+    -mox-box-shadow: 2px 2px 5px rgba(0,0,0, .5);
+    
+}
+button.btn:hover {
+    color: white;
 }
