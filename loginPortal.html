@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>COC Companion</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://images-eu.ssl-images-amazon.com/images/I/81MYd8u7plL.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="loginPortal.css">
     </head>
@@ -20,20 +22,26 @@
                             <form class="signinForm">
                                 
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Email">
+                                    <input required type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Email">
                                 </div>
                                 
                                 <div class="form-group">
-                                    <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                    <input required type="password" class="form-control" id="passwordInput" placeholder="Password">
                                 </div>
                                 
                                 <button type="submit" class="btn btn-lg">
                                     Login
                                 </button>
                                 
+                                <div class="form-check mt-3">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember Me // </label>
+                                    <a href="#">Need Help?</a>
+                                    </div>
                             </form>
                         </div>
                     </div>
+                    <a href="#" class="btn btn-light signinRegister mt-4">Create New Account</a>
                 </div>
                 <div class="col"></div>
             </div>
